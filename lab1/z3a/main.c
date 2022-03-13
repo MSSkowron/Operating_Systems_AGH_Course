@@ -79,6 +79,7 @@ int main(int argc,char **argv){
         {
             if(i + 1 >= argc || strcmp("txt", get_filename_ext(argv[i + 1])) != 0) {
                 printf("Invalid/Lack of parameter for wc_files command\n");
+                fprintf(raportFile,"Invalid/Lack of parameter for wc_files command.\n");
                 break;
             }
 
