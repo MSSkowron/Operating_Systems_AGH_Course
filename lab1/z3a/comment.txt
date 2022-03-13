@@ -1,0 +1,9 @@
+Czasy wykonania operacji na różnych typach bibliotek są bardzo zbliżone do siebie.
+Na podstawie otrzymanych wyników ciężko stwierdzić czy są różnice spowodowane różnicą 
+tych bibliotek czy też jest to spowodowane nieidealnym środowiskiem w którym inne procesy 
+mogły spowolnić wykonywanie różnych etapów programu.
+Jedyne przypuszczenie, który jesteśmy w stanie wyciągnąć z otrzymanego testu jest takie, 
+że biblioteka statyczna jest najszybsza. Jej czas różni się o 0.01 od pozostałych dwóch. 
+Jednakże na podstawie testu nie możemy jednoznacznie wysunąć wniosku jakoby była ona najszybsza.
+Różnica między bibliotekami jest taka, że współdzielona oraz dynamicznie ładowana 
+mają osobny plik biblioteki, natomiast statyczna zamieszczona jest w pliku wykonywalnym.
