@@ -70,6 +70,7 @@ int main(int argc,char **argv){
             if(i + 1 >= argc || is_number(argv[i+1]) == -1)
             {
                 printf("Invalid/Lack of parameter for create_table command\n");
+                fprintf(raportFile,"Invalid/Lack of parameter for create_table command.\n");
                 break;
             }
             int max_size = atoi(argv[i+1]);
@@ -82,6 +83,7 @@ int main(int argc,char **argv){
         {
             if(i + 1 >= argc || strcmp("txt", get_filename_ext(argv[i + 1])) != 0) {
                 printf("Invalid/Lack of parameter for wc_files command\n");
+                fprintf(raportFile,"Invalid/Lack of parameter for wc_files command.\n");
                 break;
             }
 
@@ -111,6 +113,7 @@ int main(int argc,char **argv){
                 if (result == -1)
                 {
                     printf("Opening file went wrong.");
+                    fprintf(raportFile,"Opening file went wrong.\n");
                     break;
                 }
                 delete_temp_file();
@@ -124,6 +127,7 @@ int main(int argc,char **argv){
             if(i + 1 >= argc || is_number(argv[i+1]) == -1)
             {
                 printf("Invalid/Lack of parameter for remove_block command");
+                fprintf(raportFile,"Invalid/Lack of parameter for remove_block command.\n");
                 break;
             }
 
@@ -148,6 +152,7 @@ int main(int argc,char **argv){
         else
         {
             printf("Invalid argument.");
+            fprintf(raportFile,"Invalid argument.\n");
             break;
         }
 
