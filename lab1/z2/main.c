@@ -70,7 +70,7 @@ int main(int argc,char **argv){
             if(i + 1 >= argc || is_number(argv[i+1]) == -1)
             {
                 printf("Invalid/Lack of parameter for create_table command\n");
-                return -1;
+                break;
             }
             int max_size = atoi(argv[i+1]);
             printf("Created table of size: %d\n",max_size);
@@ -82,7 +82,7 @@ int main(int argc,char **argv){
         {
             if(i + 1 >= argc || strcmp("txt", get_filename_ext(argv[i + 1])) != 0) {
                 printf("Invalid/Lack of parameter for wc_files command\n");
-                return -1;
+                break;
             }
 
             int txt_files_counter = 0;
@@ -124,7 +124,7 @@ int main(int argc,char **argv){
             if(i + 1 >= argc || is_number(argv[i+1]) == -1)
             {
                 printf("Invalid/Lack of parameter for remove_block command");
-                return -1;
+                break;
             }
 
             int index = atoi(argv[i+1]);
@@ -148,7 +148,7 @@ int main(int argc,char **argv){
         else
         {
             printf("Invalid argument.");
-            return  -1;
+            break;
         }
 
         time[k] = times(tms[k]);
