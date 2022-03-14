@@ -1,0 +1,4 @@
+Przy opcji optymalizacyjnej -Os można zauważyć że czas
+wykonywywania jednej z operacji jest najmniejszy spośród
+opcji. Nie można natomiast na podstawie otrzymanych
+wyników określić różnicy pomiędzy opcją -O oraz -O0.
