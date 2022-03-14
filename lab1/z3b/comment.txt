@@ -1,4 +1,0 @@
-Przy opcji optymalizacyjnej -O0 można zauważyć że czas
-wykonywywania jednej z operacji jest o 0.01 większy, niż w przypadku
-opcji -O oraz -Os. Nie można natomiast na podstawie otrzymanych
-wyników określić różnicy pomiędzy opcją -O oraz -Os.
