@@ -1,0 +1,13 @@
+Funkcje biblioteki: 
+   Real      User      System
+0.050000   0.040000   0.000000 
+
+   Real      User      System
+0.000000   0.000000   0.000000 
+
+Funkcje systemowe: 
+   Real      User      System
+0.380000   0.060000   0.310000 
+
+   Real      User      System
+0.000000   0.000000   0.000000 
