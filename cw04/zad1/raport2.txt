@@ -1,7 +1,0 @@
-FORK:
-Sygnał, który oczekuje w rodzicu nie jest widoczny w dziecku.
-Dziecko dziedziczy maskowanie, handlery i ignorowanie.
-
-EXEC:
-Sygnał, który oczekuje w rodzicu również widoczny jest w dziecku.
-Dziecko dziedziczy maskowanie i ignorowanie.
