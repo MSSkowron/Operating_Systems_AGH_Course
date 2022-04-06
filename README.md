@@ -1,1 +1,1 @@
-# Sysopy
+# Zajęcia z przedmiotu Systemy operacyjne.
