@@ -1,0 +1,14 @@
+Dla N < PIPE_BUF:
+1. 5 producentow, 1 konsument
+    Program dziala poprawnie.
+
+2. 1 producentow, 5 konsument
+    Program dziala poprawnie.
+    
+3. 5 producentow, 5 konsument
+    Program czasem nie dziala tak jak powinien ale zazwyczaj daje poprawny wynik.
+
+Dla N > PIPE_BUF:
+    Dokladnie tak samo jak wyzej.
+
+    
