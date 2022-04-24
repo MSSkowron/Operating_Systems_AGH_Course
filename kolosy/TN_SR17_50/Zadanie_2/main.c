@@ -15,7 +15,10 @@
 void read_end(char *file_name, char *result){
     // Uzupelnij cialo funkcji read_end zgodnie z
     // komentarzem powyzej
-
+    int fd = open(file_name, O_RDONLY);
+    lseek(fd, -8, SEEK_END);
+    read(fd, result, 8);
+    close(fd);
 }
 
 

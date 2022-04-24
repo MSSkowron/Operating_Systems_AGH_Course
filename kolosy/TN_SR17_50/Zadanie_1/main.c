@@ -16,7 +16,7 @@
  * do zapisu i odczytu przez właściciela i roota, ale nie przez innych użytkowników.
  */
 int open_file(const char* path) {
-
+    return open(path, O_CREAT | O_WRONLY | O_APPEND, 0700);
 }
 
 void check_fd(int fd) {

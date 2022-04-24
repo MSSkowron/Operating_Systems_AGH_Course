@@ -12,7 +12,15 @@ int main() {
     * odczytaj z potoku nazwanego PIPE zapisana tam wartosc i przypisz ja do zmiennej val
     * posprzataj
     ************************************/
-    
+    FILE* file = fopen(PIPE, "r");
+    if(file == NULL){
+        printf("Can't open PIPE\n");
+        return 1;
+    }
+
+    fread(&val, sizeof(int), 1, file);
+
+    fclose(file);
     printf("%d square is: %d\n", val, val*val);
     return 0;
 }

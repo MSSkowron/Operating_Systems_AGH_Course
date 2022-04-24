@@ -14,9 +14,20 @@ int main(int argc, char* argv[]) {
  } 
 
   //utworz potok nazwany pod sciezka reprezentowana przez PIPE
+  mkfifo(PIPE,0777);
   //zakladajac ze parametrem wywolania programu jest liczba calkowita
   //zapisz te wartosc jako int do potoku i posprzataj
+  int value = atoi(argv[1]);
 
+  FILE *file = fopen(PIPE, "w");
+  if(file == NULL){
+    printf("Can't open PIPE\n");
+    return 1;
+  }
 
-    return 0;
+  fwrite(&value, sizeof(int), 1, file);
+
+  fclose(file);
+
+  return 0;
 }
