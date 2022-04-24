@@ -1,0 +1,53 @@
+
+New Client connected! ID: 12292
+2022-04-24 04:42:32
+
+
+
+New Client connected! ID: 12294
+2022-04-24 04:42:37
+
+
+
+Got LIST from: 0
+2022-04-24 04:42:40
+
+
+
+Got TO_ONE from: 0 to: 1
+Message: witatatatatj
+2022-04-24 04:42:48
+
+
+
+Got TO_ALL from: 1
+Message: witaj wszystkich
+2022-04-24 04:42:59
+
+
+
+Got LIST from: 1
+2022-04-24 04:43:02
+
+
+
+Got STOP from: 1
+2022-04-24 04:43:03
+
+
+
+Got STOP from: 1
+2022-04-24 04:43:03
+
+
+
+Got STOP from: 0
+2022-04-24 04:43:05
+
+
+
+Got STOP from: 0
+2022-04-24 04:43:05
+
+
+Destroying server's queue
