@@ -1,0 +1,49 @@
+
+New Client connected! ID: 5071
+2022-04-25 09:20:20
+
+
+
+New Client connected! ID: 5083
+2022-04-25 09:20:29
+
+
+
+New Client connected! ID: 5100
+2022-04-25 09:20:37
+
+
+
+Got TO_ALL from: 2
+Message: witam wszystkich
+2022-04-25 09:20:41
+
+
+
+Got TO_ONE from: 0 to: 2
+Message: witaj dwojka
+2022-04-25 09:21:02
+
+
+
+Got TO_ONE from: 2 to: 0
+Message: siemka zero
+2022-04-25 09:21:10
+
+
+
+Got STOP from: 1
+2022-04-25 09:21:16
+
+
+
+Got STOP from: 0
+2022-04-25 09:21:19
+
+
+
+Got STOP from: 2
+2022-04-25 09:21:21
+
+
+Destroying server's queue

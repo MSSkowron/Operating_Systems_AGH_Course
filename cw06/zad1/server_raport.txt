@@ -1,0 +1,76 @@
+
+New Client connected! ID: 4734
+2022-04-25 09:16:47
+
+
+
+New Client connected! ID: 4750
+2022-04-25 09:16:57
+
+
+
+New Client connected! ID: 4771
+2022-04-25 09:17:09
+
+
+
+Got TO_ALL from: 0
+Message: witajcie przyjaciele!
+2022-04-25 09:17:21
+
+
+
+Got TO_ALL from: 1
+Message: no witam witam
+2022-04-25 09:17:30
+
+
+
+Got TO_ONE from: 2 to: 0
+Message: czesc
+2022-04-25 09:17:48
+
+
+
+Got TO_ONE from: 0 to: 2
+Message: no co tam
+2022-04-25 09:17:59
+
+
+
+Got TO_ONE from: 2 to: 0
+Message: a dobrze hehe
+2022-04-25 09:18:08
+
+
+
+Got STOP from: 0
+2022-04-25 09:18:12
+
+
+
+Got STOP from: 0
+2022-04-25 09:18:12
+
+
+
+Got STOP from: 1
+2022-04-25 09:18:16
+
+
+
+Got STOP from: 1
+2022-04-25 09:18:16
+
+
+
+Got STOP from: 2
+2022-04-25 09:18:18
+
+
+
+Got STOP from: 2
+2022-04-25 09:18:18
+
+
+Destroying server's queue
