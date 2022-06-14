@@ -1,0 +1,112 @@
+[BLOCK TEST]
+Number of threads: 1 
+Mode: block
+Thread: 0     time: 0.000458
+Main          time: 0.002255
+ 
+[BLOCK TEST]
+Number of threads: 2 
+Mode: block
+Thread: 0     time: 0.000212
+Thread: 1     time: 0.000314
+Main          time: 0.003997
+ 
+[BLOCK TEST]
+Number of threads: 4 
+Mode: block
+Thread: 0     time: 0.000315
+Thread: 1     time: 0.000133
+Thread: 2     time: 0.001022
+Thread: 3     time: 0.000192
+Main          time: 0.002008
+ 
+[BLOCK TEST]
+Number of threads: 8 
+Mode: block
+Thread: 0     time: 0.000053
+Thread: 1     time: 0.000046
+Thread: 2     time: 0.000149
+Thread: 3     time: 0.000064
+Thread: 4     time: 0.000137
+Thread: 5     time: 0.000050
+Thread: 6     time: 0.000102
+Thread: 7     time: 0.000082
+Main          time: 0.001826
+ 
+[BLOCK TEST]
+Number of threads: 16 
+Mode: block
+Thread: 0     time: 0.000017
+Thread: 1     time: 0.000021
+Thread: 2     time: 0.000025
+Thread: 3     time: 0.000029
+Thread: 4     time: 0.000032
+Thread: 5     time: 0.000094
+Thread: 6     time: 0.000053
+Thread: 7     time: 0.000027
+Thread: 8     time: 0.000015
+Thread: 9     time: 0.000015
+Thread: 10     time: 0.000018
+Thread: 11     time: 0.000017
+Thread: 12     time: 0.000014
+Thread: 13     time: 0.000019
+Thread: 14     time: 0.000016
+Thread: 15     time: 0.000015
+Main          time: 0.001761
+ 
+[NUMBERS TEST]
+Number of threads: 1 
+Mode: numbers
+Thread: 0     time: 0.000420
+Main          time: 0.008054
+ 
+[NUMBERS TEST]
+Number of threads: 2 
+Mode: numbers
+Thread: 0     time: 0.001576
+Thread: 1     time: 0.001413
+Main          time: 0.004902
+ 
+[NUMBERS TEST]
+Number of threads: 4 
+Mode: numbers
+Thread: 0     time: 0.001743
+Thread: 1     time: 0.003221
+Thread: 2     time: 0.007995
+Thread: 3     time: 0.002768
+Main          time: 0.017228
+ 
+[NUMBERS TEST]
+Number of threads: 8 
+Mode: numbers
+Thread: 0     time: 0.000497
+Thread: 1     time: 0.000686
+Thread: 2     time: 0.001109
+Thread: 3     time: 0.002527
+Thread: 4     time: 0.000838
+Thread: 5     time: 0.013592
+Thread: 6     time: 0.015986
+Thread: 7     time: 0.002167
+Main          time: 0.018815
+ 
+[NUMBERS TEST]
+Number of threads: 16 
+Mode: numbers
+Thread: 0     time: 0.000625
+Thread: 1     time: 0.000447
+Thread: 2     time: 0.000597
+Thread: 3     time: 0.001393
+Thread: 4     time: 0.004355
+Thread: 5     time: 0.002811
+Thread: 6     time: 0.001661
+Thread: 7     time: 0.000378
+Thread: 8     time: 0.000671
+Thread: 9     time: 0.004365
+Thread: 10     time: 0.000499
+Thread: 11     time: 0.003037
+Thread: 12     time: 0.004221
+Thread: 13     time: 0.000438
+Thread: 14     time: 0.000466
+Thread: 15     time: 0.000521
+Main          time: 0.010976
+ 
